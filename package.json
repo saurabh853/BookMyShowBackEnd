@@ -1,0 +1,27 @@
+{
+  "name": "node-server-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-client": "cd client && npm start",
+    "start-server": "node connection.js",
+    "start": "concurrently \"npm run start-server\" \"npm run start-client\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "4.17.1",
+    "express-router": "^0.0.1",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.10.15",
+    "node-serialize": "0.0.4",
+    "router": "^1.3.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
