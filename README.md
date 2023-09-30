@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # BookMyShow Backend
 
 Welcome to the backend development of the BookMyShow website project! In this project, we will create the backend server responsible for handling movie bookings and retrieving booking details.
