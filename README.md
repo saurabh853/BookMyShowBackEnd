@@ -75,6 +75,3 @@ The backend server exposes API endpoints for booking movies and retrieving the l
 ### Important Notes
 
 - The backend server communicates with the frontend server running on port 3000.
-=======
-# BookMyShowBackEnd
->>>>>>> origin/main
