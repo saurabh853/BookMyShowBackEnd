@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # BookMyShow Backend
 
 Welcome to the backend development of the BookMyShow website project! In this project, we will create the backend server responsible for handling movie bookings and retrieving booking details.
@@ -75,3 +76,6 @@ The backend server exposes API endpoints for booking movies and retrieving the l
 ### Important Notes
 
 - The backend server communicates with the frontend server running on port 3000.
+=======
+# BookMyShowBackEnd
+>>>>>>> origin/main
