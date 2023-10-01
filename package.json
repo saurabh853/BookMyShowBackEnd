@@ -3,10 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "start-client": "cd client && npm start",
-    "start-server": "node connection.js",
-    "start": "concurrently \"npm run start-server\" \"npm run start-client\""
+ "scripts": {
+    "start": "node connection",
+    "server": "nodemon connection"
   },
   "author": "",
   "license": "ISC",

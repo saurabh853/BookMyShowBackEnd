@@ -21,7 +21,7 @@ connection();
 app.use("/api", bookingRoute);
 
 // listening backend on a port.
-const port = process.env.PORT || 8081;
+const port = process.env.PORT || 8080;
 app.listen( port, () => console.log(`App listening on port ${port}!`) );
 
 module.exports = app;
