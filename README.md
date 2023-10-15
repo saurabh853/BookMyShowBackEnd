@@ -32,7 +32,7 @@ The backend server exposes API endpoints for booking movies and retrieving the l
 
 #### Booking a Movie
 
-- **Endpoint:** `http://localhost:8080/api/booking`
+- **Endpoint:** `https://turquoise-panda-sock.cyclic.cloud/api/booking`
 - **Method:** POST
 - **Request Body:**
   ```json
@@ -51,7 +51,7 @@ The backend server exposes API endpoints for booking movies and retrieving the l
 
 #### Retrieving the Last Booking
 
-- **Endpoint:** `http://localhost:8080/api/booking`
+- **Endpoint:** `https://turquoise-panda-sock.cyclic.cloud/api/booking`
 - **Method:** GET
 - **Response:**
   ```json
