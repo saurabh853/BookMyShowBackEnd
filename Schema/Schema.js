@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const { Schema } = mongoose;
 
-// Created a new schema for pushing movie booking details.
+/*Schema for movie booking .*/
 const bookMovieSchema = new Schema({
     movie: { type: String,  default:"" },
     slot: { type: String, default:"" },
@@ -15,5 +15,5 @@ const bookMovieSchema = new Schema({
     }
 }, { timestamps: true })
 
-// Registering the schema with mongoose model.
+/*Registering the schema with mongoose model.*/
 module.exports = mongoose.model('bookmovieticket', bookMovieSchema);

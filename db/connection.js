@@ -2,26 +2,20 @@ const { MongoClient } = require("mongodb");
 let mongoose = require("mongoose");
 require("dotenv").config();
 
-// for production use this 
+/* for development use this*/
+const mongoURL = process.env.MONGO_URL;
 
-// for development use this
-const mongoURI = process.env.MONGO_URL;
-
-const connectToMongo = async () => {
-  // Connecting to database using connection string and speciying if there is any error or it was successfull
-  mongoose
-    .connect( mongoURI, 
-        { 
+const connectToMongoDb = async () => {
+  /*Connecting to database using connection string and speciying if there is any error or it was successfull*/
+  mongoose.connect( mongoURL,{ 
             useNewUrlParser: true, 
             useUnifiedTopology: true 
-        }
-    )
-    .then(() => {
+    }
+    ).then(() => {
       console.log("Database connected");
-    })
-    .catch((err) => {
+    }).catch((err) => {
       console.log("Database connection error", err);
     });
 };
 
-exports.connection = connectToMongo;
+exports.connection = connectToMongoDb;
